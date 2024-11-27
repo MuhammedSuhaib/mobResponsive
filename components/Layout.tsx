@@ -3,7 +3,7 @@ import React from "react";
 function Layout() {
   return (
     <div
-      className="w-[428px] h-[451px] flex gap-6 py-12 px-6"
+      className="sm:mt-[700px] w-[428px] h-[451px] flex gap-6 py-12 px-6"
     >
       <div className="w-[380px] h-[355px] flex flex-col gap-6">
         {/* Header Section */}
@@ -49,3 +49,4 @@ function Layout() {
 }
 
 export default Layout;
+

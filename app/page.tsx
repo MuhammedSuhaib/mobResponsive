@@ -7,18 +7,21 @@ import Blog from   "@/components/Blog";
 import OurTeam from "@/components/OurTeam";
 import Testimonial from "@/components/Testimonial";
 import Footer from "@/components/Footer";
+import Top from "@/components/Top";
 export default function Home() {
   return (
-    <div >
-      <Navbar />
+    <div  >
+      <Top />
+      <div className="h-0 sm:h-4"></div>
+      <Navbar  />
       <Header />
       <Logo />
       <Team />
       <Layout />
-      <Blog />
+      <Blog /> 
       <OurTeam />
       <Testimonial />
-      <Footer/>
+       <Footer/>
 
     </div>
   );
