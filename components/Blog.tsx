@@ -32,7 +32,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
                 <Image
-                  src="/UI.jfif"
+                  src="/UI-min.jpg"
                   alt="UI"
                   width={380}
                   height={300}
@@ -86,7 +86,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7] ">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex justify-center items-center flex-col gap-6">
                 <Image
-                  src="/py.jfif"
+                  src="/py-min.jpg"
                   alt="py"
                   width={380}
                   height={300}
@@ -142,7 +142,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
                 <Image
-                  src="/DataAnalysis.jfif"
+                  src="/DataAnalysis.png"
                   alt="DataAnalysis"
                   width={380}
                   height={300}
