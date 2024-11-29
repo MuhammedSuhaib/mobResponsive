@@ -43,7 +43,7 @@ function Header() {
         />
         {/* Large screen image */}
         <Image
-          src="/place.jfif"
+          src="/img.jpg"
           alt="Sample Image for Large Screens"
           width={640}
           height={800}
