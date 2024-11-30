@@ -4,11 +4,11 @@ import Connections from "./Svgs/Connections";
 
 function OurTeam() {
   return (
-    <div className="w-full h-[1,075px] px-6 py-12 flex sm:flex-row  flex-col sm:gap-20 gap-12 text-black bg-[#F7F7F7]">
+    <div className="w-[400px] sm:w-full h-[1,075px] px-6 py-12 flex sm:flex-row justify-center items-center flex-col sm:gap-20 gap-12 text-black bg-[#F7F7F7]">
       <div className="w-full flex flex-col gap-4">
         {/* Section Title */}
         <div className="w-full flex flex-col justify-center gap-6">
-          <h4 className="font-bold text-[32px] text-center">Our team</h4>
+          <h4 className="font-bold text-[32px] text-center">Our team</h4> {/*going out on mobile */}
           <p className="w-[363px] sm:w-full  font-normal text-[18px] text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
@@ -78,8 +78,8 @@ function OurTeam() {
               </div>
             </div>
           </div>
-         {/* Row 2 */}
-         <div className="hidden sm:dis w-full sm:flex-row  flex flex-col justify-center items-center gap-16">
+         {/* Row 2  */} {/*sm:block is messing here */}
+         <div className="hidden sm:block w-full sm:flex-row  flex flex-col justify-center items-center gap-16">
             {/* Profile 1*/}
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
