@@ -2,20 +2,21 @@ import React from "react";
 
 function ExploreCourses() {
   return (
-    <div className=" w-[428px] sm:w-[1,280px]  sm:h-[132px] h-[862px] py-12 pl-6 bg-white flex flex-col sm:gap-6 gap-12">
-      {/*Content */}
-      <div className="w-[385px]  h-[162px] sm:w-[768px]  sm:h-[109px] flex gap-[357px] ">
-        {/*Frame*/}
-        <div className="w-[385px]  h-[162px] sm:w-[768px]  sm:h-[109px] flex flex-col gap-6 ">
-          <h4 className="w-[385px]  h-[84px] sm:w-[768px]  sm:h-[58px] font-bold text-[32px] sm:text-[48px] text-center text-black  ">
-            Explore Courses By Category
-          </h4>
-          <p className="w-[385px]  h-[54px] sm:w-[768px]  sm:h-[27px] font-normal text-[18px] text-center text-black ">
-            Discover a wide range of courses covering a variety of subjects,
-            taught by expert instructors.
-          </p>
-        </div>
-      </div>
+    <div className="w-[428px] sm:w-full sm:h-[132px] h-[862px] py-12 pl-6 bg-white flex flex-col sm:gap-6 gap-12">
+  {/* Content */}
+  <div className="w-full sm:h-[109px] flex sm:justify-center sm:items-center sm:m-20">
+    {/* Frame */}
+    <div className="w-full sm:w-[768px] h-auto sm:h-[109px] flex flex-col gap-6">
+      <h4 className="font-bold text-center sm:text-left text-[32px] sm:text-[48px] text-black">
+        Explore Courses By Category
+      </h4>
+      <p className="font-normal text-center sm:text-left text-[18px] text-black">
+        Discover a wide range of courses covering a variety of subjects, taught by expert instructors.
+      </p>
+    </div>
+  </div>
+
+
 
       {/*Content */}
       <div className=" w-[380px] h-[556px] sm:w-[1280px]  sm:h-[636px] bg-white flex  gap-24">

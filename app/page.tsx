@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Logo from "@/components/Logo";
 import Team from "@/components/Courses";
 import Layout from "@/components/Layout";
+import Layout2 from "@/components/Layoutcopy";
 import Blog from   "@/components/Blog";
 import OurTeam from "@/components/OurTeam";
 import Testimonial from "@/components/Testimonial";
@@ -18,6 +19,7 @@ export default function Home() {
       <Logo />
       <Team />
       <Layout />
+      <Layout2/>
       <Blog /> 
       <OurTeam />
       <Testimonial />

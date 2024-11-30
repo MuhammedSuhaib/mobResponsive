@@ -1,8 +1,8 @@
 import React from "react";
 
-function Layout() {
+function Layout2() {
   return (
-    <div className="sm:mt-[910px] sm:w-full sm:h-[488px] w-[428px]  h-[451px]  flex  gap-6 sm:gap-20 py-12 sm:py-[112px] px-6 sm:px-16">
+    <div className="sm:block hidden sm:w-full sm:h-full w-[428px]  h-[451px]    gap-6 sm:gap-20 py-12 sm:py-[112px] px-6 sm:px-16">
       <div className="w-full h-[355px] sm:h-[264px] flex flex-col gap-6">
         {/* Header Section */}
         <div className="text-center text-black flex-col gap-6 sm:flex-col ">
@@ -53,4 +53,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default Layout2;
