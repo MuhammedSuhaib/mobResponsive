@@ -10,7 +10,7 @@ function Logo() {
           Trusted by the world&apos;s best companies [social proof to build
           credibility]
         </div>
-        <div className="w-[320px] h-[68px] font-bold text-[18px] text-black">
+        <div className="hidden sm:block w-[320px] h-[68px] font-bold text-[18px] text-black">
           Trusted by 2000+ companies worldwide.
         </div>
       </div>
