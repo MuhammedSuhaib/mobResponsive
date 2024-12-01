@@ -15,7 +15,7 @@ function Blog() {
       {/* Content */}
       <div className="w-full flex flex-col gap-16">
       {/* Categories */}
-        <ul className="w-[380px] sm:w-1/3  h-[40px]  flex justify-between   text-black">
+        <ul className="w-[380px] sm:w-full h-[40px]  flex sm:ml-[500px] justify-between   text-black">
           <li className=" font-normal text-[16px] text-center  border-b-[1px] border-[#676767] px-4 py-2 flex gap-2">
             Popular
           </li>
