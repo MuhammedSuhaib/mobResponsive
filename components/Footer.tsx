@@ -39,7 +39,7 @@ function Footer() {
           </div>
         </div>
 {/* Logo */}
-          <div className="sm:-mb-[60px]">
+          <div className="sm:-mb-[60px] flex sm:justify-start justify-center">
             <Logo />
           </div>
         {/*Links */}
