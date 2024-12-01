@@ -25,7 +25,7 @@ function ExploreCourses() {
           {/*Frame1*/}
           <div className="w-full  sm:h-[132px]  h-[444px] flex justify-center  items-center flex-col sm:flex-row gap-6 ">
             {/*Card 1 */}
-            <div className="w-[380px] sm:w-[410.67px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]   h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="100"
                 height="101"
@@ -111,7 +111,7 @@ function ExploreCourses() {
             </div>
 
             {/*Card 2 */}
-            <div className="w-[380px] sm:w-[410.67px] h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="100"
                 height="101"
@@ -160,7 +160,7 @@ function ExploreCourses() {
             </div>
 
             {/*Card 3 */}
-            <div className="w-[380px] sm:w-[410.67px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]   h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="100"
                 height="101"
@@ -228,7 +228,7 @@ function ExploreCourses() {
           {/*Frame2*/}
           <div className="hidden  sm:flex w-full  sm:h-[132px]  h-[444px]  justify-center  items-center flex-col sm:flex-row gap-6 ">
             {/*Card 1 */}
-            <div className="w-[380px] sm:w-[410.67px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]   h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="100"
                 height="100"
@@ -280,7 +280,7 @@ function ExploreCourses() {
             </div>
 
             {/*Card 2 */}
-            <div className="w-[380px] sm:w-[410.67px] h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="101"
                 height="100"
@@ -324,7 +324,7 @@ function ExploreCourses() {
             </div>
 
             {/*Card 3 */}
-            <div className="w-[380px] sm:w-[410.67px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]   h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="101"
                 height="100"
@@ -385,7 +385,7 @@ function ExploreCourses() {
           {/*Frame3*/}
           <div className="  hidden  sm:flex w-full  sm:h-[132px]  h-[444px] justify-center  items-center flex-col sm:flex-row gap-6 ">
             {/*Card 1 */}
-            <div className="w-[380px] sm:w-[410.67px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]   h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="100"
                 height="100"
@@ -449,7 +449,7 @@ function ExploreCourses() {
             </div>
 
             {/*Card 2 */}
-            <div className="w-[380px] sm:w-[410.67px] h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="101"
                 height="100"
@@ -507,7 +507,7 @@ function ExploreCourses() {
             </div>
 
             {/*Card 3 */}
-            <div className="w-[380px] sm:w-[410.67px]  h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
+            <div className="w-[380px]   h-[132px] rounded-[5px] p-4 bg-[#F7F7F7] flex  gap-8 ">
               <svg
                 width="101"
                 height="100"

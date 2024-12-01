@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 import Top from "@/components/Top";
 export default function Home() {
   return (
-    <div  >
+    <div className="overflow-x-hidden" >
       <Top />
       <div className="h-0 sm:h-4"></div>
       <Navbar  />

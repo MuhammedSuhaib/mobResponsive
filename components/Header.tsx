@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="flex flex-col sm:flex-row sm:justify-between">
       {/* Content */}
-      <div className="px-6 py-[36px] w-[380px] sm:w-[50%] sm:py-[250px] sm:px-[60px] flex flex-col gap-6">
+      <div className="px-6 py-[36px] w-[380px]  sm:w-[50%]  sm:py-[250px] sm:px-[60px] flex flex-col gap-6">
         <h3 className="font-bold h-[96px] w-[380px] text-[#000000] text-4xl">
           Learn new skills online with ease
         </h3>

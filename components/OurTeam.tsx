@@ -15,7 +15,7 @@ function OurTeam() {
         </div>
         {/* Content */}
         <div className="w-full flex   flex-col items-center gap-24">
-          {/* Row */}
+          {/* Row 1*/}
           <div className="w-full sm:flex-row  flex flex-col justify-center items-center gap-16">
             {/* Profile 1*/}
             <div className="w-full flex flex-col justify-center items-center">
@@ -78,62 +78,56 @@ function OurTeam() {
               </div>
             </div>
           </div>
-         {/* Row 2  */} {/*sm:block is messing here */}
-         <div className="hidden sm:block w-full sm:flex-row  flex flex-col justify-center items-center gap-16">
-            {/* Profile 1*/}
+         {/* Row 2  */} {/*sm:block is messing here so sm:flex instead of block  & if i write hidden so no need to write flex */}
+         <div className="hidden sm:flex w-full sm:flex-row   flex-col justify-center items-center gap-16">
+            {/* Profile 4*/}
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp1.png" alt="pfp1" width={80} height={80} />
+                <Image src="/pfp4.png" alt="pfp1" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">
                 <h4 className="font-semibold text-[20px] text-center">
-                  James Nduku
-                </h4>
+                Erick Kipkemboi                </h4>
                 <p className="font-normal text-[18px] text-center">
-                  Marketing Coordinator
-                </p>
+                Web Designer                </p>
               </div>
               {/*Icons */}
               <div className="w-[394.67px]   flex justify-center mt-6  ">
                 <Connections />
               </div>
             </div>
-            {/* Profile 2 */}
+            {/* Profile 5 */}
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp2.png" alt="pfp2" width={80} height={80} />
+                <Image src="/pfp5.png" alt="pfp2" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">
                 <h4 className="font-semibold text-[20px] text-center">
-                  Joseph Munyambu
-                </h4>
+                Stephen Kerubo                </h4>
                 <p className="font-normal text-[18px] text-center">
-                  Nursing Assistant
-                </p>
+                President of Sales                </p>
               </div>
               {/*Icons */}
               <div className="w-[394.67px]  flex justify-center mt-6  ">
                 <Connections />
               </div>
             </div>
-            {/* Profile 3 */}
+            {/* Profile 6 */}
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp3.png" alt="pfp3" width={80} height={80} />
+                <Image src="/pfp6.png" alt="pfp3" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">
                 <h4 className="font-semibold text-[20px] text-center">
-                  Joseph Ngumbau{" "}
-                </h4>
+                John Leboo                </h4>
                 <p className="font-normal text-[18px] text-center">
-                  Medical Assistant{" "}
-                </p>
+                Dog Trainer                </p>
               </div>
               {/*Icons */}
               <div className="w-[394.67px]  flex justify-center mt-6  ">

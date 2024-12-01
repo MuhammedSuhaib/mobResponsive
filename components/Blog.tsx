@@ -14,8 +14,8 @@ function Blog() {
 
       {/* Content */}
       <div className="w-full flex flex-col gap-16">
-      {/* Categories */} {/*on mobile messed up here */}
-        <div className="w-1/3 mx-auto h-[40px]  flex justify-between   text-black">
+      {/* Categories */}
+        <div className="w-full sm:w-1/3 mx-auto h-[40px]  flex justify-between   text-black">
           <button className=" font-normal text-[16px] text-center w-[87px] h-[40px] border-b-[1px] border-[#676767] px-4 py-2 flex gap-2">
             Popular
           </button>
