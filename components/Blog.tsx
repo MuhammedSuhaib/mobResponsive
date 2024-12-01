@@ -29,7 +29,7 @@ function Blog() {
 
         {/* Content */}
         <div className="w-[380px] h-[1,690px] flex justify-center flex-col gap-16">
-          {/**Row */}
+          {/**Row 1*/}
           <div className="w-[380px] h-[1,690px] sm:w-full sm:flex-row  flex flex-col gap-8">
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
@@ -66,7 +66,7 @@ function Blog() {
                     </div>
 
                     <h5 className="font-bold text-[24px]">UX/UI Design 201</h5>
-                    <p className="font-normal text-[16px] w-[326px] h-[72px] ">
+                    <p className="font-normal text-[16px] w-[326px] sm:w-full h-[72px] ">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Suspendisse varius enim in eros.
                     </p>
@@ -74,11 +74,11 @@ function Blog() {
                 </div>
               </div>
               
-              {/*Avatar */}
+              {/*Avatar 1*/}
               <div className=" ml-4 w-[382px] h-[40px] flex gap-4 ">
-                <button className=" py-2 px-5 rounded-[5px] border-[1px] border-black font-normal text-base text-black flex gap-2 ">
+                <button className=" py-2 px-5 rounded-[5px]  border-[1px] border-black font-normal text-base text-black flex gap-2 ">
                   Enroll Now
-                </button>
+                </button> 
 
                 <button className=" py-2 px-5 font-medium text-base text-black flex gap-2 ">
                   $400
@@ -130,7 +130,7 @@ function Blog() {
                   </div>
                 </div>
               </div>
-              {/*Avatar */}
+              {/*Avatar 2 */}
               <div className=" ml-4 w-[382px] h-[40px] flex  gap-4 ">
                 <button className=" py-2 px-5 rounded-[5px] border-[1px] border-black font-normal text-base text-black flex gap-2 ">
                   Enroll Now
@@ -186,7 +186,7 @@ function Blog() {
                   </div>
                 </div>
               </div>
-              {/*Avatar */}
+              {/*Avatar 3*/}
               <div className=" ml-4 w-[382px] h-[40px] flex gap-4 ">
                 <button className=" py-2 px-5 rounded-[5px] border-[1px] border-black font-normal text-base text-black flex gap-2 ">
                   Enroll Now
@@ -199,13 +199,13 @@ function Blog() {
             </div>
           </div>
           <div className="hidden sm:block w-[380px] h-[1,690px]   flex-col gap-16">
-          {/**Row */}
+          {/**Row 2 */}
           <div className=" w-[380px] h-[1,690px] sm:w-full sm:flex-row  flex flex-col gap-8">
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
                 <Image
-                  src="/UI-min.jpg"
-                  alt="UI"
+                  src="/Art.jpg"
+                  alt="Art"
                   width={380}
                   height={300}
                   className="w-[380px] h-[300px] rounded-[5px]"
@@ -216,7 +216,7 @@ function Blog() {
                   <div className=" flex-col gap-2">
                     <div className="flex">
                       <h6 className="font-semibold text-[14px] w-[326px] h-[21px] ">
-                        Design
+                      Art
                       </h6>
                       <span className="font-semibold text-[14px] text-right w-[48px] h-[24px] flex gap-1 ">
                         <svg
@@ -235,7 +235,7 @@ function Blog() {
                       </span>
                     </div>
 
-                    <h5 className="font-bold text-[24px]">UX/UI Design 201</h5>
+                    <h5 className="font-bold text-[24px]">Art Specialization</h5>
                     <p className="font-normal text-[16px] w-[326px] h-[72px] ">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Suspendisse varius enim in eros.
@@ -258,8 +258,8 @@ function Blog() {
             <div className=" bg-[#F7F7F7] ">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex justify-center items-center flex-col gap-6">
                 <Image
-                  src="/py-min.jpg"
-                  alt="py"
+                  src="/Law.jpg"
+                  alt="Law"
                   width={380}
                   height={300}
                   className="w-[380px] h-[300px] rounded-[5px]"
@@ -270,7 +270,7 @@ function Blog() {
                   <div className=" flex-col gap-2">
                     <div className="flex">
                       <h6 className="font-semibold text-[14px] w-[326px] h-[21px]">
-                        Programmimg
+                      Law
                       </h6>
                       <span className="font-semibold text-[14px] text-right w-[48px] h-[24px] flex gap-1 ">
                         <svg
@@ -290,8 +290,7 @@ function Blog() {
                     </div>
 
                     <h5 className="font-bold text-[24px]">
-                      Introduction to Python
-                    </h5>
+                    Rule of Law                    </h5>
                     <p className="font-normal text-[16px] w-[348px] h-[48px] ">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Suspendisse varius enim in eros.
@@ -314,8 +313,8 @@ function Blog() {
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
                 <Image
-                  src="/DataAnalysis.png"
-                  alt="DataAnalysis"
+                  src="/web.jpg"
+                  alt="Tech"
                   width={380}
                   height={300}
                   className="w-[380px] h-[300px] rounded-[5px]"
@@ -326,7 +325,7 @@ function Blog() {
                   <div className=" flex-col gap-2">
                     <div className="flex">
                       <h6 className="font-semibold text-[14px] w-[326px] h-[21px] ">
-                        Business
+                      Tech
                       </h6>
                       <span className="font-semibold text-[14px] text-right w-[48px] h-[24px] flex gap-1 ">
                         <svg
@@ -346,8 +345,7 @@ function Blog() {
                     </div>
 
                     <h5 className="font-bold text-[24px]">
-                      Data Analysis for Beginners
-                    </h5>
+                    Introduction to webflow                    </h5>
                     <p className="font-normal text-[16px] w-[348px] h-[48px] ">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Suspendisse varius enim in eros.
