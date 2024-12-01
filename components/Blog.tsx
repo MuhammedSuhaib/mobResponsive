@@ -15,17 +15,17 @@ function Blog() {
       {/* Content */}
       <div className="w-full flex flex-col gap-16">
       {/* Categories */}
-        <div className="w-full sm:w-1/3 mx-auto h-[40px]  flex justify-between   text-black">
-          <button className=" font-normal text-[16px] text-center w-[87px] h-[40px] border-b-[1px] border-[#676767] px-4 py-2 flex gap-2">
+        <ul className="w-[380px] sm:w-1/3  h-[40px]  flex justify-between   text-black">
+          <li className=" font-normal text-[16px] text-center  border-b-[1px] border-[#676767] px-4 py-2 flex gap-2">
             Popular
-          </button>
-          <button className=" font-normal text-[16px] text-center w-[108px] h-[24px] px-4 py-2 flex gap-2">
+          </li>
+          <li className=" font-normal text-[16px] text-center px-4 py-2 flex gap-2">
             Recommended
-          </button>
-          <button className="font-normal text-[16px] text-center  px-4 py-2 flex gap-2">
+          </li>
+          <li className="font-normal text-[16px] text-center w-full px-4 py-2 flex gap-2">
             Best Price
-          </button>
-        </div>
+          </li>
+        </ul>
 
         {/* Content */}
         <div className="w-[380px] h-[1,690px] flex justify-center flex-col gap-16">

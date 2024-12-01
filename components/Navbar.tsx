@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="w-full h-[72px]">
       {/* Navbar container */}
-      <div className="bg-white sm:bg-[#F7F7F7]  w-full h-full p-6 sm:px-16 flex justify-center items-center border-b border-[#676767]">
+      <div className="bg-white sm:bg-[#F7F7F7]  w-full h-full p-6 sm:px-16 flex justify-center items-center  border-solid border-b border-[#676767]">
         {/* Inner container */}
         <div className="w-full h-[48px] flex justify-between  sm:justify-between items-center">
           {/* Left column (Logo) */}
