@@ -24,7 +24,6 @@ export default function Home() {
       <OurTeam />
       <Testimonial />
        <Footer/>
-
     </div>
   );
 }
