@@ -34,7 +34,7 @@ function Testimonial() {
 
               <div className="w-[254px] h-[56px] flex flex-col gap-5 flex-wrap ">
                 <Image
-                  src="/pfp3.png"
+                  src="./pfp3.png"
                   alt="pfp3"
                   width={56}
                   height={56}
@@ -73,7 +73,7 @@ function Testimonial() {
 
               <div className="w-[254px] h-[56px] flex flex-col gap-5 flex-wrap ">
                 <Image
-                  src="/pfp1.png"
+                  src="./pfp1.png"
                   alt="pfp1"
                   width={56}
                   height={56}
@@ -105,7 +105,7 @@ function Testimonial() {
 
               <div className="w-[254px] h-[56px] flex flex-col gap-5 flex-wrap ">
                 <Image
-                  src="/pfp6.png"
+                  src="./pfp6.png"
                   alt="pfp6"
                   width={56}
                   height={56}

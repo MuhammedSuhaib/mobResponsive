@@ -35,7 +35,7 @@ function Header() {
       <div className="h-[390px] w-[428px] sm:w-[50%] sm:h-auto sm:flex sm:justify-center">
         {/* Small screen image */}
         <Image
-          src="/place.jpg"
+          src="./place.jpg"
           alt="Sample Image for Small Screens"
           width={428}
           height={390}
@@ -43,7 +43,7 @@ function Header() {
         />
         {/* Large screen image */}
         <Image
-          src="/img.jpg"
+          src="./img.jpg"
           alt="Sample Image for Large Screens"
           width={640}
           height={800}

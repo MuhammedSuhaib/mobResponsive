@@ -21,7 +21,7 @@ function OurTeam() {
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp1.png" alt="pfp1" width={80} height={80} />
+                <Image src="./pfp1.png" alt="pfp1" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">
@@ -41,7 +41,7 @@ function OurTeam() {
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp2.png" alt="pfp2" width={80} height={80} />
+                <Image src="./pfp2.png" alt="pfp2" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">
@@ -61,7 +61,7 @@ function OurTeam() {
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp3.png" alt="pfp3" width={80} height={80} />
+                <Image src="./pfp3.png" alt="pfp3" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">
@@ -84,7 +84,7 @@ function OurTeam() {
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp4.png" alt="pfp1" width={80} height={80} />
+                <Image src="./pfp4.png" alt="pfp1" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">
@@ -102,7 +102,7 @@ function OurTeam() {
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp5.png" alt="pfp2" width={80} height={80} />
+                <Image src="./pfp5.png" alt="pfp2" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">
@@ -120,7 +120,7 @@ function OurTeam() {
             <div className="w-full flex flex-col justify-center items-center">
               {/* Image */}
               <div className="flex justify-center mb-6">
-                <Image src="/pfp6.png" alt="pfp3" width={80} height={80} />
+                <Image src="./pfp6.png" alt="pfp3" width={80} height={80} />
               </div>
               {/* Text */}
               <div className="flex flex-col items-center gap-0">

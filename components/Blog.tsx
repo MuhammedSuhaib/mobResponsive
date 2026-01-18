@@ -34,7 +34,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
                 <Image
-                  src="/UI-min.jpg"
+                  src="./UI-min.jpg"
                   alt="UI"
                   width={380}
                   height={300}
@@ -89,7 +89,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7] ">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex justify-center items-center flex-col gap-6">
                 <Image
-                  src="/py-min.jpg"
+                  src="./py-min.jpg"
                   alt="py"
                   width={380}
                   height={300}
@@ -145,7 +145,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
                 <Image
-                  src="/DataAnalysis.png"
+                  src="./DataAnalysis.png"
                   alt="DataAnalysis"
                   width={380}
                   height={300}
@@ -204,7 +204,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
                 <Image
-                  src="/Art.jpg"
+                  src="./Art.jpg"
                   alt="Art"
                   width={380}
                   height={300}
@@ -258,7 +258,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7] ">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex justify-center items-center flex-col gap-6">
                 <Image
-                  src="/Law.jpg"
+                  src="./Law.jpg"
                   alt="Law"
                   width={380}
                   height={300}
@@ -313,7 +313,7 @@ function Blog() {
             <div className=" bg-[#F7F7F7]">
               <div className="w-[380px] h-auto rounded-[5px]  text-black  flex flex-col gap-6">
                 <Image
-                  src="/web.jpg"
+                  src="./web.jpg"
                   alt="Tech"
                   width={380}
                   height={300}

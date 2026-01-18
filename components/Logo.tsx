@@ -19,7 +19,7 @@ function Logo() {
       <div className="w-full  sm:flex sm:gap-[19.12px] flex gap-4 justify-center ">
         <div className="w-ful h-[33.36px]">
           <Image
-            src="/1.png"
+            src="./1.png"
             alt="Logo 1"
             width={106.81}
             height={33.36}
@@ -37,7 +37,7 @@ function Logo() {
         </div>
         <div className="w-[106.81px] h-[33.36px]">
           <Image
-            src="/3.png"
+            src="./3.png"
             alt="Logo 3"
             width={106.81}
             height={33.36}
@@ -46,7 +46,7 @@ function Logo() {
         </div>
         <div className="w-[106.81px] h-[33.36px]">
           <Image
-            src="/4.png"
+            src="./4.png"
             alt="Logo 4"
             width={106.81}
             height={33.36}
@@ -55,7 +55,7 @@ function Logo() {
         </div>
         <div className="w-[106.81px] h-[33.36px]">
           <Image
-            src="/5.png"
+            src="./5.png"
             alt="Logo 5"
             width={106.81}
             height={33.36}
@@ -64,7 +64,7 @@ function Logo() {
         </div>
         <div className="w-[106.81px] h-[33.36px]">
           <Image
-            src="/6.png"
+            src="./6.png"
             alt="Logo 6"
             width={106.81}
             height={33.36}
