@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Ddsgnr",
-  description: " my biggest web project is finally live! ",
+  description: "Sir Fahad`s Assigment Figma Landing Pg clone",
 };
 
 export default function RootLayout({
