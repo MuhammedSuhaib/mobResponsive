@@ -28,7 +28,7 @@ function Logo() {
         </div>
         <div className="w-[106.81px] h-[33.36px]">
           <Image
-            src="/2.png"
+            src="./2.png"
             alt="Logo 2"
             width={106.81}
             height={33.36}
