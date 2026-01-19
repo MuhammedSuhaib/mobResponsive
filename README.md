@@ -48,3 +48,34 @@ That’s it.
 
 This setup supports only static pages.
 No server-side rendering (SSR), API routes, or dynamic runtime features are used.
+
+
+## Problem (pnpm error)
+
+GitHub Actions failed with:
+```
+Dependencies lock file is not found
+Supported file patterns: package-lock.json, yarn.lock
+```
+
+### Reason:
+
+The auto-generated GitHub Pages workflow supports npm/yarn only, not pnpm.
+
+### Solution (pnpm fix)
+
+Replace the default workflow with a pnpm-based workflow instead of npm/yarn in `.github/workflows/deploy.yml `and ensure pnpm-lock.yaml is committed.
+
+```
+- uses: actions/setup-node@v4
+  with:
+    node-version: 20
+    cache: pnpm
+
+- uses: pnpm/action-setup@v4
+  with:
+    version: latest
+
+- run: pnpm install
+- run: pnpm next build
+```
