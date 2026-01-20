@@ -64,18 +64,21 @@ The auto-generated GitHub Pages workflow supports npm/yarn only, not pnpm.
 
 ### Solution (pnpm fix)
 
-Replace the default workflow with a pnpm-based workflow instead of npm/yarn in `.github/workflows/deploy.yml `and ensure pnpm-lock.yaml is committed.
+Update the workflow in `.github/workflows/nextjs.yml` with the following changes:
 
-```
-- uses: actions/setup-node@v4
-  with:
-    node-version: 20
-    cache: pnpm
+1. **Move pnpm setup above node setup**: Place `pnpm/action-setup@v4` before `actions/setup-node@v4`.
 
-- uses: pnpm/action-setup@v4
-  with:
-    version: latest
+2. **Enable pnpm caching**: Add `cache: pnpm` to the node setup step.
 
-- run: pnpm install
-- run: pnpm next build
-```
+3. **Add Next.js build caching**: Include a cache step for `.next/cache` to speed up builds and resolve cache issues.
+
+### Key Changes Made:
+
+1. **Order Fix**: Moved `pnpm/action-setup@v4` before `actions/setup-node@v4` to ensure pnpm is available when setting up Node.js with caching.
+
+2. **Caching Added**:
+   - Added `cache: pnpm` to the node setup step to cache pnpm dependencies
+   - Added Next.js build cache for `.next/cache` directory to speed up builds and resolve cache-related issues.
+   - Note: Caching is not available for the first build since there's nothing to cache yet, but will be available from the second build onwards, significantly speeding up subsequent builds.
+
+For the complete workflow file, see `.github/workflows/nextjs.yml`.
